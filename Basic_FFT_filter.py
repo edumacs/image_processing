@@ -12,7 +12,7 @@ from PIL import Image
 
 # --- IMPORT DATA From CSV File
 
-imgFile = "C:/Users/M S I/downloads/eco wares.jpg"
+imgFile = "C:/Users/user_name/downloads/lena.jpg"
 imgPil = Image.open(imgFile).convert('LA')
 imgNp = np.array(imgPil.convert('L'))
 imgNp = imgNp / np.max(imgNp)
